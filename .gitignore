@@ -1,0 +1,34 @@
+# 依赖目录
+node_modules/
+
+# 构建产物
+frontend/dist/
+backend/public/
+
+# 环境变量文件
+.env
+
+# 日志文件
+logs/
+*.log
+
+# 编辑器文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# Docker相关
+Dockerfile
+.dockerignore
+docker-compose.yml
+
+# 其他
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
