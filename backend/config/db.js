@@ -38,8 +38,7 @@ const connectDB = async () => {
         mysql_native_password: true
       },
       // 字符集设置
-      charset: 'utf8mb4',
-      collation: 'utf8mb4_unicode_ci'
+      charset: 'utf8mb4'
     });
     
     const testConnection = await testPool.getConnection();
